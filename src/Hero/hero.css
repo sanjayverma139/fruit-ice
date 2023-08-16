@@ -1,0 +1,25 @@
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-height: 25vh; */
+    
+}
+
+.Img_wrapper{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center; 
+    width: 98%;
+    z-index: 1;
+   
+ 
+}
+
+
+.hero_img{
+    margin-left: .5rem;
+    height: 60vh;
+    width: 97vw;
+}

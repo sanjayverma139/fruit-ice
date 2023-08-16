@@ -1,0 +1,109 @@
+.content{
+    margin-top: -3rem;
+    margin-right: 1.4rem;
+    width: 75%;
+    border-radius: 81px 78px 25px 25px;
+    background-image: linear-gradient(to right, #fd6a75, #ff8272, #ff9975, #ffaf7d, #f9b576);
+}
+
+.grid{
+    width: fit-content;
+    margin-top: 4.5rem;
+    margin-left: 3rem;
+    color: #fff;
+    
+}
+
+.title{
+    font-weight: 800;
+    font-size:x-large;
+}
+
+.cards{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem;
+    margin-top: 1rem;
+    list-style: none;
+    overflow: auto; 
+    
+    scrollbar-width: none; 
+    -webkit-scrollbar-width: none; 
+    &::-webkit-scrollbar {
+        width: 0; 
+    }
+    
+}
+
+
+
+.card{
+    min-width: 17rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+    border: 1.5px;
+    box-shadow: rgba(0, 0, 0, 0.646) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 1.7rem;
+
+}
+
+.card_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_Ttitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.card1{
+    background-image: linear-gradient(to bottom, #f4cac8, #e8bebf, #dbb3b6, #cfa8ad, #c29da4);
+}
+
+.card2{
+    background-image: linear-gradient(to bottom, #c99df1, #b78ddf, #a47dce, #936dbd, #815eac);;
+}
+
+.card3{
+    background-image: linear-gradient(to bottom, #f064b0, #ee59ae, #ec4dac, #ea40aa, #e830a8);
+}
+
+.card4{
+    background-image: linear-gradient(to bottom, #feb437, #ee9525, #dc7517, #c8560d, #b33407);
+}
+
+.card5{
+    background-image: linear-gradient(to bottom, #f4c490, #f6aa6f, #f98d55, #fc6a44, #fe3a3d);
+}
+
+.price_container{
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.3s;
+    opacity: 0; 
+  }
+  
+  .card:hover .price {
+    opacity: 1; 
+  }
+  
+  
